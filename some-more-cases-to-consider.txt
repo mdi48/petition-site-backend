@@ -1,0 +1,28 @@
+Users:
+1. Case where user tries to log in with an invalid email format (addressed)
+2. Case where user tries to update and gives an id not in database (addressed)
+3. Possible Case sensitivity in emails (e.g. is TEST@example.com different to test@example.com)
+4. Case where email or password is an empty string (only checks truthy atm) (addressed)
+5. Case where user tries to update with invalid data
+6. Case where user provides logout with incorrect data (logging out someone else for example)
+
+User images:
+1. Case where we try to provide getImage with a non-number (addressed)
+2. Case where we try to set an image for a user not in the database (addressed already)
+
+Petitions:
+1. Case where startIndex and/or count are < 0 (addressed)
+2. Case where there are no petitions in database, so should just return empty array
+3. Case where we are looking for a non-existent petition (by id) (addressed)
+4. Case where we supply a petition id that is not a number (addressed)
+
+Petition images:
+1. Case where we try to get a petition image using a non-integer as an id (addressed)
+2. Case where we try to set an image to a petition that doesn't exist
+3. Case where we try to set an image to someone else's petition
+
+Petition supporters:
+1. Case where message is too short or long (addressed)
+2.
+
+Petition support tiers:
