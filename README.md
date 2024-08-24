@@ -1,3 +1,5 @@
+### The following is all from the original unaltered README that came with the project, it is not mine.
+
 # SENG365 Assignment 1 API Server (Petition Site)
 
 ## Running locally
